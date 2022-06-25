@@ -10,3 +10,73 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+#lighttop {
+    width: 20px;
+    height: 60px;
+    background-color:black;
+    margin: auto;
+}
+
+#lightcontainer {
+    width: 100px;
+    height: 190px;
+    background-color: black;
+    margin: auto;
+    padding-top: 5px;
+      
+}
+
+.red-light {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: red;
+    cursor: pointer;
+}
+
+.yellow-light {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.green-light {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: green;
+    cursor: pointer;
+}
+
+.red-light-selected {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: red;
+    box-shadow: #f8ffcc 0px 0px 50px 20px;
+}
+
+.yellow-light-selected {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: yellow;
+    box-shadow: #f8ffcc 0px 0px 50px 20px;
+}
+
+.green-light-selected {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: green;
+    box-shadow: #f8ffcc 0px 0px 50px 20px;
+}
